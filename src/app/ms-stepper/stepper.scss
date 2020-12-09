@@ -1,0 +1,21 @@
+.ms-stepper {
+  display: block;
+  position: relative;
+   overflow-x:hidden;
+  overflow-y: hidden;
+  box-sizing: content-box;
+
+  transition: height .3s ease-in-out;
+}
+.ms-stepper-layout {
+  display: flex;
+}
+
+.ms-stepper-container {
+  width: 100%;
+  position: relative;
+}
+
+.ms-stepper-step {
+  display: inline-block;
+}
